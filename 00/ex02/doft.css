@@ -1,0 +1,118 @@
+body {
+	background-color: #505050;
+	font-family: monospace;
+	font-color: black;
+}
+
+#main {
+	width: 1200px;
+}
+
+#header, #left-block, #right-block, #center, #answer {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+}
+
+#header {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #909090;
+}
+
+#left-block, #right-block{
+	width: 150px;
+	height: 350px;
+	background-color: #909090;
+}
+
+ul {
+    padding: 0;
+	list-style-type: none;
+}
+
+li img {
+    width: 60px;
+}
+
+.brick {
+	background-image: url(resources/brick.jpg);
+	background-position: left bottom;
+	height: 65px;
+	margin: 10px;
+}
+
+#left-block {
+	float: left;
+	margin-left: 20px;
+}
+
+#center {
+	width: 800px;
+	height: 450px;
+	border: 8px solid #909090;
+}
+
+#right-block {
+	float: right;
+	margin-right: 20px;
+}
+
+#logo {
+	float: left;
+    margin-left: 10px;
+}
+
+div#animate {
+    float: right;
+    margin-top: -140px;
+    margin-right: 10px;
+} 
+
+div#loupe {
+	text-align: right;
+    margin-right: 30px;
+}
+
+div#loupe img {
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+div#exit {
+    position: absolute;
+    margin-left: 1170px;
+    margin-top: -30px;
+}
+
+.button1 {
+    width: 20%; 
+    background-color: #e2e4eb;
+}
+
+div#answer {
+    padding: 0px 25px 40px 10px;
+     margin-left: -30px;
+    margin-top: -60px;
+	background-color: #87FE8F;
+	width: 400px;
+    position: absolute;
+}
+
+.optic{
+	border-radius: 3px;
+	border: 5px solid red;
+}
+
+
+#answer strong {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#answer b {
+    text-shadow: 4px 4px 10px red;
+}
+
+p {
+    text-align: left;
+}
