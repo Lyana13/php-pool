@@ -1,0 +1,69 @@
+   body {
+            font-family: Arial;
+            text-align: center;
+        }
+
+        p.atomic-weight {
+            text-align: right;
+        }
+
+        p.num {
+            text-align: left;
+        }
+
+        table {
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            margin: 0 auto;
+            max-width: 25%;
+        }
+
+        td span {
+            font-weight: bold;    
+        }
+        td {
+            font-size: 1vw;
+        }
+
+        td.alkaline {
+            background-color: #cc33ff;
+        }
+
+        td.atom {
+            background-color: #7FFFD4; 
+        }
+
+        td.non-metal{
+            background-color: #ff6600;
+        }
+
+        td.lanthanide-family {
+            background-color: #ccff66;
+        }
+
+        td.actinide-family {
+            background-color: #EC69AE;
+        }
+
+        td.halogen{
+            background-color: #ffff00;
+        }
+
+        td.alkali-metal {
+            background-color: #ff33cc;
+        }
+
+        td.metalloid {
+            background-color: #A5A85D;
+        }
+
+        td.polyatomic {
+            background-color: #65EC8E;
+        }
+        td.transitions{
+            background-color: #87CEFA;
+        }
